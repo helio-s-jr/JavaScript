@@ -211,3 +211,38 @@ console.log(cadastro)
 for(let contador = 0; contador < cadastro.length; contador++){
     console.log(cadastro[contador].amigos[contador])
 }
+
+
+//Trabalho de Inglês - Dandara
+
+let comedy = [
+    {
+        title:"This is The End",
+        director:"Seth Rogen and Evan Goldberg",
+        year:"2013",
+    }
+];
+console.log(comedy);
+
+let action = [
+    {
+        title:"Deadpool",
+        director:"Tim Miller",
+        year:"2016",
+    }
+];
+console.log(action);
+
+let fantasy = [
+    {
+        title:"Lord Of The Rings",
+        director:"Peter Jackson",
+        year:"2001",
+    }
+];
+console.log(fantasy);
+if(fantasy.title == "Harry Potter"){
+    console.log("My favorit Movie Is")
+}else{
+    console.log("Not Even 5 Stars ")
+}
